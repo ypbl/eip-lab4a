@@ -7,17 +7,12 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.QueueingConsumer;
 
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ Based on the RabbitMQ tutorial examples:
+ https://www.rabbitmq.com/tutorials/tutorial-one-java.html
  */
-/**
- *
- * @author ernestoexposito
- */
-public class Consumer {
-// the name of the queue to be used to communicate
 
+public class Consumer {
+    // the name of the queue to be used to communicate
     private final static String QUEUE_NAME = "queue1";
 
     public static void main(String[] argv) throws Exception {
