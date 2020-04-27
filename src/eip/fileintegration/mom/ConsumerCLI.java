@@ -11,7 +11,7 @@ import com.rabbitmq.client.QueueingConsumer;
  https://www.rabbitmq.com/tutorials/tutorial-one-java.html
  */
 
-public class Consumer {
+public class ConsumerCLI {
     // the name of the queue to be used to communicate
     private final static String QUEUE_NAME = "queue1";
 

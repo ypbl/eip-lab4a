@@ -10,7 +10,7 @@ import com.rabbitmq.client.ConnectionFactory;
  https://www.rabbitmq.com/tutorials/tutorial-one-java.html
  */
 
-public class Producer {
+public class ProducerCLI {
     
     // the name of the queue to be used to communicate
     private final static String QUEUE_NAME = "queue1";
